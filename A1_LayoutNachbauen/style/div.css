@@ -1,0 +1,33 @@
+.header, .footer {
+    background-color: yellow;
+}
+
+.center {
+    overflow: hidden;
+}
+
+.nav {
+    background-color: aqua;
+    width: 13%;
+    height: 100%;
+    float: left;
+}
+
+.content {
+    background-color: green;
+    width: 68%;
+    float: left;
+}
+
+.sidebar {
+    background-color: darkcyan;
+    width: 13%;
+    float: right;
+}
+
+.text {
+    padding-left: 2%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}

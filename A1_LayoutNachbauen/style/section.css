@@ -1,0 +1,36 @@
+.container {
+    display: table;
+    width: 100%;
+    font-size: 25px;
+}
+
+.content {
+    display: table-row;
+}
+
+.header, .footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background: yellow;
+}
+
+.content-nav, .content-body, .content-sidebar {
+    display: table-cell;
+    padding: 20px;
+}
+
+.content-nav {
+    background-color: aqua;
+    width: 15%;
+}
+
+.content-body {
+    background-color: green;
+    width: 100%;
+}
+
+.content-sidebar {
+    background-color: darkcyan;
+    width: 15%;
+}

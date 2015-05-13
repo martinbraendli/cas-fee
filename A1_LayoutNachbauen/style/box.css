@@ -1,0 +1,45 @@
+body {
+    font-size: 25px;
+}
+
+header, footer {
+    display: block;
+    padding: 25px;
+    background-color: yellow;
+}
+
+#main {
+    display: flex;
+    flex-flow: row;
+    min-height: 100px;
+}
+
+#main > article {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    background-color: green;
+    flex: 3 1 60%;
+    order: 2;
+}
+
+#main > nav {
+    padding: 25px;
+    background-color: aqua;
+    flex: 1 6 20%;
+    order: 1;
+}
+
+#main > aside {
+    padding: 25px;
+    border: 1px solid #8888bb;
+    background-color: darkcyan;
+    flex: 1 6 20%;
+    order: 3;
+}
+
+@media all and (max-width: 640px) {
+    #main, #page {
+        flex-direction: column;
+    }
+}

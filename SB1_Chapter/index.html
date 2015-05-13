@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="Guidebook">
+<head>
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/lib/angular-sanitize.min.js"></script>
+    <script src="js/lib/angular-animate.min.js"></script>
+
+    <script src="Guidebook.js"></script>
+
+    <script src="controller/ChapterController.js"></script>
+    <script src="controller/NoteController.js"></script>
+
+    <script src="model/ChapterModel.js"></script>
+    <script src="model/NoteModel.js"></script>
+
+    <title>Guidebook</title>
+
+    <style>
+
+        .slide-animation {
+            background-color: red;
+        }
+
+        .slide-animation.ng-enter {
+            transition: 2s linear all;
+            background-color: white;
+        }
+
+        .slide-animation.ng-enter-active {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+<h3>Guidebook</h3>
+<hr/>
+<div ng-view></div>
+<hr/>
+
+</body>
+</html>

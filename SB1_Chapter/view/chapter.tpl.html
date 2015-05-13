@@ -1,0 +1,21 @@
+Chapters:
+<ul ng-repeat="chapter in chapters | orderBy : 'title'"
+    class="slide-animation"
+    ng-animate-children>
+
+    <li>
+        <h2>{{chapter.title}}</h2>
+
+        <p>{{chapter.summary}}</p>
+        <a href="#/addNote/{{chapter.id}}">Notiz hinzufügen</a>
+
+        <ul ng-repeat="note in chapter.notes">
+            <li>{{note.id | date: 'dd. MM. yyyy HH:mm'}} - {{note.content}}
+
+                <a href="#" ng-click="onDelete(chapter.id, note.id)">Notiz löschen</a>
+
+            </li>
+        </ul>
+    </li>
+
+</ul>

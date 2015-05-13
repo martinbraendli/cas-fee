@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "title": "Überschrift 1",
+    "summary": "Zusammenfassung 1"
+  },
+  {
+    "id": 1,
+    "title": "Überschrift 2",
+    "summary": "Zusammenfassung 2"
+  },
+  {
+    "id": 2,
+    "title": "Überschrift 3",
+    "summary": "Zusammenfassung 3"
+  },
+  {
+    "id": 3,
+    "title": "Überschrift 4",
+    "summary": "Zusammenfassung 4"
+  },
+  {
+    "id": 4,
+    "title": "Überschrift 5",
+    "summary": "Zusammenfassung 5"
+  }
+]
