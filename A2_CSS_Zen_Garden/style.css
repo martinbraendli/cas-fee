@@ -40,6 +40,8 @@ a:hover {
 
 /* section */
 .intro {
+    background: url("img/Header_Campus_01.jpg") no-repeat;
+
     height: 194px;
 }
 
@@ -70,7 +72,8 @@ h2 {
 
 /* section > summary */
 .summary {
-    background-image: url("img/Header_Campus_01.jpg");
+    background: url("img/logo.gif") no-repeat;
+    background-position: 20px 0;
     height: 195px;
 
     position: relative;
