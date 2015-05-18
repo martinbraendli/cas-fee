@@ -8,32 +8,95 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 /* Haupt-DIV, entspricht mainContainer*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #000000;
+    background: #CCDCE9;
+
+
+}
+
+a:link, a:visited, a:active {
+    color: #005092;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F57D00;
+}
+
 .page-wrapper {
     position: relative;
     margin: 0px auto;
     padding: 0px;
     width: 959px;
+
+    background-color: white;
+
 }
 
 /* section */
 .intro {
+
 }
 
 /* section > header */
 header {
 }
 
+/* Titel "Studium */
+h1 {
+    background-color: #005092;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px 0px 11px 0px;
+    padding: 3px 0px 4px 7px;
+    display: block;
+}
+
+h2 {
+    display: none;
+}
+
 /* section > summary */
 .summary {
+    height: 195px;
+    background-image: url("img/Header_Campus_01.jpg");
+}
+
+.summary p {
+    display: none;
 }
 
 /* section > preamble */
 .preamble {
+    display: none;
 }
 
 /* main */
-main {
+.main {
 
+    position: absolute;
+    top: 195px;
+    left: 200px;
+
+    width: 380px;
+
+    margin: 0px;
+    padding: 0 0 0 20px;
+
+    background-color: #FFFFFF;
+}
+
+.main h3 {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 15px;
 }
 
 /* main > explanation */
@@ -66,22 +129,47 @@ footer {
 
 /* aside */
 .sidebar {
+    display: block;
+    width: 194px;
+    float: left;
+    margin: 0px;
+    padding-top: 15px;
 
+    background-color: #FFFFFF;
+
+    overflow: hidden;
+    margin-bottom: -1000em;
+    padding-bottom: 1001em;
 }
 
 /* aside > design-selection */
 .design-selection {
+    padding-left: 15px;
+}
 
+.design-selection h3 {
+    display: none;
+}
+
+.design-selection ul {
+    list-style: none;
+    border-top: 1px solid #b3b4b5;
+
+    padding-left: 0px;
+}
+
+.design-selection li {
+    border-bottom: 1px solid #b3b4b5;
 }
 
 /* aside > design-archives */
 .design-archives {
-
+    display: none;
 }
 
 /* aside > zen-resources */
 .zen-resources {
-
+    display: none;
 }
 
 /***** Original Styles *****/
