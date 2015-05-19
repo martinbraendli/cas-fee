@@ -65,8 +65,7 @@ h2 {
 
 /* section > summary */
 .summary {
-    background: url("img/logo.gif") no-repeat;
-    background-position: 20px 0;
+    background: url("img/logo.gif") no-repeat 20px 0;
     height: 195px;
 
     position: relative;
@@ -193,7 +192,7 @@ footer {
 }
 
 /* kein Platz in Box für letzte Elemente*/
-.zen-resources li:nth-child(-n+3) {
+.zen-resources li:nth-child(n+4) {
     display: none;
 }
 
