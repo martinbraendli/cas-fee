@@ -130,7 +130,7 @@ footer {
     line-height: 12px;
 
     position: relative;
-    left: -194px;
+    left: -220px;
     padding-top: 2px;
 }
 
@@ -230,12 +230,12 @@ footer {
 .extra1 {
     border-bottom: 1px solid #B3B4B5;
 
-    width: 959px;
+    width: 760px;
     height: 18px;
 
     position: relative;
     top: -1120px;
-    left: 20px;
+    left: -80px;
     margin: 0 auto;
 
     padding: 0;
