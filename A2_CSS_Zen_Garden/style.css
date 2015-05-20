@@ -202,7 +202,7 @@ footer {
     height: 30px;
 
     position: relative;
-    top: -420px;
+    top: -405px;
     left: 250px;
 }
 
@@ -217,7 +217,7 @@ footer {
     padding-right: 13px;
 }
 
-/* kein Platz in Box für letzte Elemente*/
+/* kein Platz in Box fÃ¼r letzte Elemente*/
 .zen-resources li:nth-child(n+4) {
     display: none;
 }
